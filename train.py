@@ -56,7 +56,6 @@ def run_training(
 		experiment_name=experiment_name,
 		run_name=run_name,
 		max_iter=1000,
-		class_weight="balanced",
 		random_state=random_state
 	)
 	model.train(
